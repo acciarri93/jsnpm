@@ -18,6 +18,11 @@
   ],
   "author": "lautaro acciarri <acciarri93@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  
   "dependencies": {
     "moment": "^2.29.4"
   },
