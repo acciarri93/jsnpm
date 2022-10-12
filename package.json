@@ -1,7 +1,7 @@
 {
-  "name": "jsnpm",
+  "name": "acciarri-mensajealeatorio",
   "version": "1.0.0",
-  "description": "Construir un paquete para node ",
+  "description": "I don't know what to write for the first commit ",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -19,12 +19,13 @@
   "author": "lautaro acciarri <acciarri93@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "mensajealeatorio": "./bin/global.js"
   },
   "preferGlobal": true,
-  
   "dependencies": {
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "node": "^18.10.0",
+    "npm": "^8.19.2"
   },
   "optionalDependencies": {
     "eslint": "^8.24.0"
